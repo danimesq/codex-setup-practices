@@ -5,6 +5,7 @@ Primary author:
 --author="Plasma Clara Nexus - GPTCodex-infused <perlarosas-plasmaclaranexus.codex.gpt@git-acme.xyz>"
 
 Required co-authors in commit trailers:
+Co-authored-by: Plasma Clara Nexus - GPTCodex-infused <perlarosas-plasmaclaranexus.codex.gpt@git-acme.xyz>
 Co-authored-by: Perla Rosa Mesquita <git.contact@perla.ink>
 Co-authored-by: OpenAI ChatGPT <openai-chatgpt@git-acme.xyz>
 
