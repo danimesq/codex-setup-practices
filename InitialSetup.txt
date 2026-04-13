@@ -8,3 +8,9 @@ Required co-authors in commit trailers:
 Co-authored-by: Perla Rosa Mesquita <git.contact@perla.ink>
 Co-authored-by: OpenAI ChatGPT <openai-chatgpt@git-acme.xyz>
 EOF
+
+# Clone e instalação do git-meta
+# Repo: https://github.com/01VCS/git-meta.git
+git clone https://github.com/01VCS/git-meta.git
+cd git-meta
+pip install .
