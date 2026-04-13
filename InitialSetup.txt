@@ -16,5 +16,5 @@ cat > GIT-META-SETUP.txt <<'EOF'
 # Repo: https://github.com/01VCS/git-meta.git
 git clone https://github.com/01VCS/git-meta.git
 cd git-meta
-pip install .
+sudo bash install.sh
 EOF
