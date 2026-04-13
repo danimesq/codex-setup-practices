@@ -9,12 +9,7 @@ Co-authored-by: Plasma Clara Nexus - GPTCodex-infused <perlarosas-plasmaclaranex
 Co-authored-by: Perla Rosa Mesquita <git.contact@perla.ink>
 Co-authored-by: OpenAI ChatGPT <openai-chatgpt@git-acme.xyz>
 
-Para setup de clone/instalação do git-meta, consulte `GIT-META-SETUP.txt`.
-EOF
-
-cat > GIT-META-SETUP.txt <<'EOF'
-# Clone e instalação do git-meta
-# Repo: https://github.com/01VCS/git-meta.git
+Para setup de clone/instalação do git-meta - necessária:
 git clone https://github.com/01VCS/git-meta.git
 cd git-meta
 sudo bash install.sh
