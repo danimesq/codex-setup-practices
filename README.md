@@ -16,7 +16,7 @@ Nada de README Jesules vazio que só existe pra dizer que existe. Aqui a ideia �
 ## Estrutura atual
 
 - `README.md`: visão geral, propósito e instruções de uso.
-- `InitialSetup.txt`: anotações iniciais de setup.
+- `InitialSetup.txt`: script de bootstrap (AGENTS + git-meta + kubo) com fallback para erro HTTP 403 ao resolver versão do kubo.
 - `for-AGENTS.md`: referência rápida com lembretes para agentes e contribuições assistidas.
 
 ## Regras de contribuição (sem maquiagem)
@@ -43,3 +43,14 @@ Automação sem contexto vira teatro.
 E colaboração sem regra mínima vira DAO de ego com governance de gritaria.
 
 Então sim: escrever README decente também é infraestrutura. 💥
+
+
+## Setup rápido
+
+```bash
+bash InitialSetup.txt
+```
+
+Se a infra bloquear a descoberta da versão mais recente do kubo, o script usa uma versão fallback automaticamente (configurável por `KUBO_FALLBACK_VERSION`).
+
+Por padrão, os hooks são instalados no repositório do diretório atual (`pwd`) para funcionar em runners onde o path não é fixo.
